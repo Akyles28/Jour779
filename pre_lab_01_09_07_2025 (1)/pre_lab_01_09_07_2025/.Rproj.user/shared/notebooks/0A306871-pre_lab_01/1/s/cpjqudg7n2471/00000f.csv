@@ -1,0 +1,6 @@
+"0","umd_courses |>"
+"0","  group_by(term, department) |>"
+"0","  summarise("
+"0","    count_classes = n()"
+"0","  ) |>"
+"0","  arrange(term, department)"
