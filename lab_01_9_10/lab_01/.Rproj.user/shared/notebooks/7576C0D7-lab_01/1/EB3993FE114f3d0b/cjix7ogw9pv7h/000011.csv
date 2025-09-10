@@ -1,0 +1,8 @@
+"0","umd_courses |> "
+"0","  group_by(department) |> "
+"0","  summarise("
+"0","    count_classes = n(),"
+"0","    total_seats = sum(seats),"
+"0","    max_seats = max(seats)"
+"0","  ) |> "
+"0","  arrange(desc(total_seats))"
