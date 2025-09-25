@@ -1,0 +1,5 @@
+"0","stem_cells <- md_grants_loans |> "
+"0","  filter("
+"0","    str_detect(description,""STEM CELL RESEARCH GRANT"")| "
+"0","    str_detect(description,""Stem Cell Research Grant, Pre-Commercialization Research"")|"
+"0","    str_detect(description,""Stem Cell Research Grant""))"

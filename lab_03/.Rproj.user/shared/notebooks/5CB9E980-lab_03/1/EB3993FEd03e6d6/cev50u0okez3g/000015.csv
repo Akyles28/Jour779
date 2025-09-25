@@ -1,0 +1,4 @@
+"0","pg_schools |>"
+"0","  group_by(fiscal_year) |> "
+"0","  summarize(total_amount = sum(amount)) |> "
+"0","  arrange(desc(total_amount))"

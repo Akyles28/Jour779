@@ -1,0 +1,4 @@
+"0","stem_cells |> "
+"0","  group_by(fiscal_year) |> "
+"0","summarize(total_amount = sum(amount)) |> "
+"0","arrange(desc(fiscal_year))"

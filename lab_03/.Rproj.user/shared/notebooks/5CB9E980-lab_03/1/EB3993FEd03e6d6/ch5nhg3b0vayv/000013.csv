@@ -1,0 +1,5 @@
+"0","payments |> "
+"0","  filter("
+"0","    str_detect(agency_name,'CAPITAL PROJECTS- UNIVERSITY OF MARYLAND')) |> "
+"0","  group_by(vendor_name, amount) |> "
+"0","summarize(total_amount = sum(amount))"
