@@ -1,0 +1,3 @@
+"0","media_expenses <- cleaned_md_expenses |> "
+"0","  filter("
+"0","    str_detect(expense_category, ""Media""))"
